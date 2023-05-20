@@ -1,6 +1,7 @@
 mod hello;
 mod tups;
 mod structsman;
+mod hashmp;
 
 fn main() {
     println!("Hello, world!");
@@ -61,6 +62,8 @@ tups::runner();
 let res = tups::add_tups((2,4));
 
 println!("{}", res);
+
+hashmp::hash_lib()
 
 
 
